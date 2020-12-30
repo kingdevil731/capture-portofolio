@@ -17,6 +17,7 @@ button {
     cursor: pointer;
     border: 3px solid #23d997;
     background: transparent;
+    border-radius: 8px;
     color: white;
     transition: all 0.5s ease;
     &:hover {
@@ -33,6 +34,7 @@ h3 {
 }
 h4 {
     font-weight: bold;
+    font-size: 2rem;
 }
 span {
      font-weight: bold;
