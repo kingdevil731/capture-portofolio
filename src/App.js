@@ -1,17 +1,17 @@
-import AboutUs from "./pages/AboutUs";
+import AboutUs from './pages/AboutUs';
 // Global Style
-import GlobalStyle from "./components/GlobalStyle";
+import GlobalStyle from './components/GlobalStyle';
 // Components
-import Nav from "./components/Nav";
+import Nav from './components/Nav';
 // Pages
-import ContactUs from "./pages/ContactUs";
-import OurWork from "./pages/OurWork";
+import ContactUs from './pages/ContactUs';
+import OurWork from './pages/OurWork';
 //Pages
-import MovieDetails from "./pages/MovieDetails";
+import MovieDetails from './pages/MovieDetails';
 // Router
-import { Switch, Route, useLocation } from "react-router-dom";
+import { Switch, Route, useLocation } from 'react-router-dom';
 // Animate
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
   const location = useLocation();
