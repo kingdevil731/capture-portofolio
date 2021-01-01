@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 // Styled
-import styled from "styled-components";
+import styled from 'styled-components';
 // Router
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
@@ -35,6 +35,9 @@ const StyledNav = styled.nav`
   align-items: center;
   padding: 1rem 10rem;
   background: #282828;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   a {
     color: white;
     text-decoration: none;
@@ -45,7 +48,7 @@ const StyledNav = styled.nav`
   }
   #logo {
     font-size: 1.5rem;
-    font-family: "Lobster", cursive;
+    font-family: 'Lobster', cursive;
     font-weight: lighter;
   }
   li {

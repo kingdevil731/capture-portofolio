@@ -1,19 +1,29 @@
-import React from "react";
+import React from 'react';
 // import icons
-import clock from "../img/clock.svg";
-import diaphragm from "../img/diaphragm.svg";
-import money from "../img/money.svg";
-import teamwork from "../img/teamwork.svg";
+import clock from '../img/clock.svg';
+import diaphragm from '../img/diaphragm.svg';
+import money from '../img/money.svg';
+import teamwork from '../img/teamwork.svg';
 // import images
-import home2 from "../img/home2.png";
+import home2 from '../img/home2.png';
 // styles
-import { About, Description, Image } from "../styles";
+import { About, Description, Image } from '../styles';
 // Styled
-import styled from "styled-components";
+import styled from 'styled-components';
+// Animations
+import { scrollReveal } from '../animation';
+// Scroll component
+import { useScroll } from './useScroll';
 
 const ServicesSection = () => {
+  const [element, controls] = useScroll();
   return (
-    <About>
+    <Services
+      variants={scrollReveal}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+    >
       <Description>
         <h2>
           High <span>quality</span> services
@@ -52,7 +62,7 @@ const ServicesSection = () => {
       <Image>
         <img src={home2} alt="home" />
       </Image>
-    </About>
+    </Services>
   );
 };
 

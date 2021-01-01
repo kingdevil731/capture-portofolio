@@ -6,10 +6,20 @@ import { About } from '../styles';
 import Toggle from './Toggle';
 // Motion
 import { AnimateSharedLayout } from 'framer-motion';
+// Animations
+import { scrollReveal } from '../animation';
+// Scroll component
+import { useScroll } from './useScroll';
 
 const FaqSection = () => {
+  const [element, controls] = useScroll();
   return (
-    <Faq>
+    <Faq
+      variants={scrollReveal}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+    >
       <h2>
         Any Questions <span>FAQ</span>
       </h2>
