@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Portofolio App developed during Dev Ed Course
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+we learned framer-motion, styled-components, how animate one after another "staggerAnimation", and much more.
+
+amazing course.
 
 ## Available Scripts
 
