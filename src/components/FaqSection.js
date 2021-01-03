@@ -9,7 +9,7 @@ import { AnimateSharedLayout } from 'framer-motion';
 // Animations
 import { scrollReveal } from '../animation';
 // Scroll component
-import { useScroll } from './useScroll';
+import { useScroll } from './UseScroll';
 
 const FaqSection = () => {
   const [element, controls] = useScroll();

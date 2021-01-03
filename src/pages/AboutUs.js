@@ -1,13 +1,13 @@
 import React from 'react';
 // page Components
-import AboutSection from '../components/AboutSection';
-import FaqSection from '../components/FaqSection';
-import ServicesSection from '../components/ServicesSection';
+import AboutSection from '../Components/AboutSection';
+import FaqSection from '../Components/FaqSection';
+import ServicesSection from '../Components/ServicesSection';
 // Animation
 import { motion } from 'framer-motion';
 import { pageAnimation } from '../animation';
 // scrollTop
-import ScrollTop from '../components/ScrollTop';
+import ScrollTop from '../Components/ScrollTop';
 
 const AboutUs = () => {
   return (

@@ -1,13 +1,13 @@
-import AboutUs from './pages/AboutUs';
+import AboutUs from './Pages/AboutUs';
 // Global Style
-import GlobalStyle from './components/GlobalStyle';
+import GlobalStyle from './Components/GlobalStyle';
 // Components
-import Nav from './components/Nav';
+import Nav from './Components/Nav';
 // Pages
-import ContactUs from './pages/ContactUs';
-import OurWork from './pages/OurWork';
+import ContactUs from './Pages/ContactUs';
+import OurWork from './Pages/OurWork';
 //Pages
-import MovieDetails from './pages/MovieDetails';
+import MovieDetails from './Pages/MovieDetails';
 // Router
 import { Switch, Route, useLocation } from 'react-router-dom';
 // Animate

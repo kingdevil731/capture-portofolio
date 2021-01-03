@@ -13,7 +13,7 @@ import styled from 'styled-components';
 // Animations
 import { scrollReveal } from '../animation';
 // Scroll component
-import { useScroll } from './useScroll';
+import { useScroll } from './UseScroll';
 
 const ServicesSection = () => {
   const [element, controls] = useScroll();
